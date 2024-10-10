@@ -2,8 +2,6 @@ const express = require('express');
 const router = express.Router();
 const fs = require('fs');
 
-const operationary = require('../views/dictionary.json');
-
 router.get('/', function (req, res, next) {
     fs.readFile('views/operationary.json', 'utf8', (err, data)=>{
         if (err){
