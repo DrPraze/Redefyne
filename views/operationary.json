@@ -1,5 +1,37 @@
 {
+  "A": {
+    "Anti-goal": {
+      "Definition": "What your worst nightmare looks like",
+      "Phonetic": "/ˈæn.taɪ ɡoʊl/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    }
+  },
   "C": {
+    "Careful": {
+      "Definition": "Applying more attention to a task",
+      "Phonetic": "/ˈkɛə.fəl/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Commitment": {
       "Definition": "The elimination of alternatives",
       "Phonetic": "/kəˈmɪt.mənt/",
@@ -30,7 +62,22 @@
         ""
       ],
       "Source": "Alex Hormozi",
-      "Uploaded by": "Praise J.J."
+      "UploadedBy": "Praise J.J."
+    },
+    "Contraformist": {
+      "Definition": "A form of conformist that is always opposing the crowd",
+      "Phonetic": "/ˌkɒn.trəˈfɔːr.mɪst/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
     }
   },
   "D": {
@@ -47,7 +94,7 @@
         ""
       ],
       "Source": "Praise J.J.",
-      "Uploaded by": "Praise J.J."
+      "UploadedBy": "Praise J.J."
     },
     "Diligence": {
       "Definition": "The ability to do the work required, without any reward or witness, for a long period of time.",
@@ -65,10 +112,59 @@
       "UploadedBy": "Praise J.J."
     }
   },
+  "E": {
+    "Energy": {
+      "Definition": "A measure of the ability to do work",
+      "Phonetic": "/ˈɛn.ɚ.dʒi/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    }
+  },
   "F": {
     "Foolishness": {
       "Definition": "A measure of one's inability to predict the consequences of their actions",
       "Phonetic": "/ˈfuː.lɪʃ.nəs/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Frustration": {
+      "Definition": "A feeling that comes as a result of the perception of too few options that are all difficult",
+      "Phonetic": "/frʌˈstreɪ.ʃən/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    }
+  },
+  "G": {
+    "Goal": {
+      "Definition": "What a better life looks like",
+      "Phonetic": "/ɡoʊl/",
       "Examples": [
         ""
       ],
@@ -111,7 +207,7 @@
         ""
       ],
       "Source": "Alex Hormozi",
-      "Uploaded by": "Praise J.J."
+      "UploadedBy": "Praise J.J."
     }
   },
   "L": {
@@ -128,7 +224,23 @@
         ""
       ],
       "Source": "Alex Hormozi",
-      "Uploaded by": "Praise J.J."
+      "UploadedBy": "Praise J.J."
+    },
+    "Leverage": {
+      "Definition": "Procedural Advantage",
+      "Phonetic": "/ˈlɛv.ɚ.ɪdʒ/",
+      "Examples": [
+        "You can leverage a lawnmower to cut grass and have more advantage due to your procedure",
+        "compared to using scissors."
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
     },
     "Love": {
       "Definition": "A measure of how much someone is willing to give up, in order to maintain their relationship with something or someone",
@@ -160,7 +272,7 @@
         ""
       ],
       "Source": "Alex Hormozi",
-      "Uploaded by": "Praise J.J."
+      "UploadedBy": "Praise J.J."
     }
   },
   "P": {
@@ -308,7 +420,7 @@
         ""
       ],
       "Source": "Praise J.J.",
-      "Uploaded by": "Praise J.J."
+      "UploadedBy": "Praise J.J."
     },
     "Trustworthy": {
       "Definition": "Worthy of trust. When something has been so consistent that you believe it won't change",
@@ -322,7 +434,7 @@
         ""
       ],
       "Source": "Praise J.J.",
-      "Uploaded by": "Praise J.J."
+      "UploadedBy": "Praise J.J."
     },
     "Truth": {
       "Definition": "Truth is that which once you see it, you can't unsee it.",
@@ -337,10 +449,25 @@
         ""
       ],
       "Source": "Naval Ravikant",
-      "Uploaded by": "Praise J.J."
+      "UploadedBy": "Praise J.J."
     }
   },
   "W": {
+    "Wickedness": {
+      "Definition": "A measure of punishment imposed on one's self in order to cause another person to suffer",
+      "Phonetic": "/ˈwɪk.ɪd.nəs/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Wisdom": {
       "Definition": "Knowing the long term consequences of your actions",
       "Phonetic": "/ˈwɪz.dəm/",
@@ -357,19 +484,19 @@
       "UploadedBy": "Praise J.J."
     },
     "Work": {
-      "Definition": "Volume times leverage",
-      "Phonetic": "",
+      "Definition": "Output: Volume x Leverage",
+      "Phonetic": "/wɜːrk/",
       "Examples": [
-        ""
+        "The results generated which is a product of the volume put in and the procedural advantage"
       ],
       "Synonyms": [
-        "Output"
+        ""
       ],
       "Antonyms": [
         ""
       ],
       "Source": "Alex Hormozi",
-      "Uploaded by": "Praise J.J."
+      "UploadedBy": "Praise J.J."
     }
   }
 }
