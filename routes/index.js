@@ -41,7 +41,6 @@ router.get('/search/:word', function(req, res, next){
             const firstLetter = word.charAt(0);
             const wordData = jsonData[firstLetter][word];
             const examples = wordData.Examples;
-            console.log(examples)
     
             res.render('search.ejs',{
                 word: word,
