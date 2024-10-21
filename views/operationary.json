@@ -18,7 +18,7 @@
   },
   "C": {
     "Careful": {
-      "Definition": "Applying more attention to a task",
+      "Definition": "Putting all your attention to a task",
       "Phonetic": "/ˈkɛə.fəl/",
       "Examples": [
         ""
@@ -65,8 +65,38 @@
       "UploadedBy": "Praise J.J."
     },
     "Contraformist": {
-      "Definition": "A form of conformist that is always opposing the crowd",
-      "Phonetic": "/ˌkɒn.trəˈfɔːr.mɪst/",
+      "Definition": "A person who has a habit of always going against the crowd",
+      "Phonetic": "/ˌkɒntrəˈfɔːrmɪst/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Contraformity": {
+      "Definition": "The habit of always going against the crowd",
+      "Phonetic": "/kɒntrəˈfɔːrməti/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Curiosity": {
+      "Definition": "A measure of the motivation to see something",
+      "Phonetic": "/ˌkjʊə.riˈɒs.ɪ.ti/",
       "Examples": [
         ""
       ],
@@ -130,6 +160,21 @@
     }
   },
   "F": {
+    "Focus": {
+      "Definition": "Elimination of alternative engagements",
+      "Phonetic": "/ˈfoʊ.kəs/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Foolishness": {
       "Definition": "A measure of one's inability to predict the consequences of their actions",
       "Phonetic": "/ˈfuː.lɪʃ.nəs/",
@@ -146,10 +191,10 @@
       "UploadedBy": "Praise J.J."
     },
     "Frustration": {
-      "Definition": "A feeling that comes as a result of the perception of too few options that are all difficult",
-      "Phonetic": "/frʌˈstreɪ.ʃən/",
+      "Definition": "A feeling that comes from percieved lack of control",
+      "Phonetic": "/frʌˈstreɪʃən/",
       "Examples": [
-        ""
+        "You can solve frustration by being reminded that you can control yourself"
       ],
       "Synonyms": [
         ""
@@ -178,7 +223,54 @@
       "UploadedBy": "Praise J.J."
     }
   },
+  "H": {
+    "Hate": {
+      "Definition": "The extent to which you're willing to sacrifice to sever any relationship.",
+      "Phonetic": "/heɪt/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    }
+  },
   "I": {
+    "Ignorance": {
+      "Definition": "A measure of the lack of motivation to see something",
+      "Phonetic": "/ˈɪɡ.nər.əns/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Illusion": {
+      "Definition": "That which only exists when you're thinking about it",
+      "Phonetic": "/ɪˈluːʒən/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Impress": {
       "Definition": "Positively exceeding expectations",
       "Phonetic": "/ɪmˈprɛs/",
@@ -258,7 +350,54 @@
       "UploadedBy": "Praise J.J."
     }
   },
+  "M": {
+    "Mastery": {
+      "Definition": "Getting more done with less effort",
+      "Phonetic": "/ˈmæs.tər/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Motivation": {
+      "Definition": "Motivation is the internal drive to act that arises from perceiving a lack of something",
+      "Phonetic": "/ˌmoʊtəˈveɪʃən/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Common sense",
+      "UploadedBy": "Praise J.J."
+    }
+  },
   "O": {
+    "Operationary": {
+      "Definition": "An open-source directory of definitions based on \"what to do\"",
+      "Phonetic": "/ˌɒpəˈreɪʃənɛri/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Output": {
       "Definition": "Volume times leverage",
       "Phonetic": "",
@@ -292,6 +431,21 @@
       "Source": "Alex Hormozi",
       "UploadedBy": "Praise J.J."
     },
+    "Peace": {
+      "Definition": "When all the members of a body cooperate",
+      "Phonetic": "/piːs/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Play": {
       "Definition": "Play is work that takes less effort and gives dopamine in real-time as you do it.",
       "Phonetic": "/pleɪ/",
@@ -321,6 +475,21 @@
         ""
       ],
       "Source": "Alex Hormozi",
+      "UploadedBy": "Praise J.J."
+    },
+    "Powerful": {
+      "Definition": "A measure of how close thoughts and reality is",
+      "Phonetic": "/ˈpaʊərfəl/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
       "UploadedBy": "Praise J.J."
     },
     "Productivity": {
@@ -369,6 +538,21 @@
       ],
       "Source": "Alex Hormozi",
       "UploadedBy": "Praise J.J."
+    },
+    "Rest": {
+      "Definition": "Getting back energy",
+      "Phonetic": "/rɛst/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
     }
   },
   "S": {
@@ -403,6 +587,21 @@
         ""
       ],
       "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Strength": {
+      "Definition": "A measure of how much something or someone can withstand pressure",
+      "Phonetic": "/strɛŋkθ/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Common sense",
       "UploadedBy": "Praise J.J."
     }
   },
@@ -453,8 +652,23 @@
     }
   },
   "W": {
+    "Weak": {
+      "Definition": "A measure of the inability to withstand pressure",
+      "Phonetic": "/wiːk/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Common sense",
+      "UploadedBy": "Praise J.J."
+    },
     "Wickedness": {
-      "Definition": "A measure of punishment imposed on one's self in order to cause another person to suffer",
+      "Definition": "A measure of loss imposed on one's self in order to cause suffering for another",
       "Phonetic": "/ˈwɪk.ɪd.nəs/",
       "Examples": [
         ""
