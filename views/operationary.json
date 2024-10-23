@@ -1,5 +1,20 @@
 {
   "A": {
+    "Action": {
+      "Definition": "The physical execution of a decision; results are determined by actions taken.",
+      "Phonetic": "/ˈæk.ʃən/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Naval Ravikant",
+      "UploadedBy": "Praise J.J."
+    },
     "Anti-goal": {
       "Definition": "What your worst nightmare looks like",
       "Phonetic": "/ˈæn.taɪ ɡoʊl/",
@@ -47,6 +62,21 @@
         ""
       ],
       "Source": "Alex Hormozi",
+      "UploadedBy": "Praise J.J."
+    },
+    "Compounding": {
+      "Definition": "The process of accumulating benefits (wealth, knowledge, relationships) over time through consistent effort.",
+      "Phonetic": "/kəmˈpaʊndɪŋ/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Naval Ravikant",
       "UploadedBy": "Praise J.J."
     },
     "Confidence": {
@@ -160,6 +190,21 @@
     }
   },
   "F": {
+    "Failure": {
+      "Definition": "An opportunity to learn and improve rather than a negative outcome.",
+      "Phonetic": "/ˈfeɪl.jər/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Naval Ravikant",
+      "UploadedBy": "Praise J.J."
+    },
     "Focus": {
       "Definition": "Elimination of alternative engagements",
       "Phonetic": "/ˈfoʊ.kəs/",
@@ -224,6 +269,21 @@
     }
   },
   "H": {
+    "Happiness": {
+      "Definition": "A choice that arises when you remove the sense of lacking something in your life.",
+      "Phonetic": "/ˈhæp.ɪ.nəs/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Naval Ravikant",
+      "UploadedBy": "Praise J.J."
+    },
     "Hate": {
       "Definition": "The extent to which you're willing to sacrifice to sever any relationship.",
       "Phonetic": "/heɪt/",
@@ -302,6 +362,23 @@
       "UploadedBy": "Praise J.J."
     }
   },
+  "J": {
+    "Judgement": {
+      "Definition": "Applying wisdom to external problems to make better decisions.",
+      "Phonetic": "/ˈdʒʌdʒ.mənt/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Naval Ravikant",
+      "UploadedBy": "Praise J.J."
+    }
+  },
   "L": {
     "Learning": {
       "Definition": "Same condition, new behaviour",
@@ -319,11 +396,10 @@
       "UploadedBy": "Praise J.J."
     },
     "Leverage": {
-      "Definition": "Procedural Advantage",
-      "Phonetic": "/ˈlɛv.ɚ.ɪdʒ/",
+      "Definition": "Using tools (like technology) to multiply your efforts without a direct increase in work",
+      "Phonetic": " /ˈlɛv.ɪ.dʒ/",
       "Examples": [
-        "You can leverage a lawnmower to cut grass and have more advantage due to your procedure",
-        "compared to using scissors."
+        ""
       ],
       "Synonyms": [
         ""
@@ -331,7 +407,7 @@
       "Antonyms": [
         ""
       ],
-      "Source": "Praise J.J.",
+      "Source": "Naval Ravikant",
       "UploadedBy": "Praise J.J."
     },
     "Love": {
@@ -347,6 +423,21 @@
         ""
       ],
       "Source": "Alex Hormozi",
+      "UploadedBy": "Praise J.J."
+    },
+    "Loyalty": {
+      "Definition": "Elimination of alternative parties to serve",
+      "Phonetic": "/ˈlɔɪ.əl.ti/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
       "UploadedBy": "Praise J.J."
     }
   },
@@ -398,6 +489,21 @@
       "Source": "Praise J.J.",
       "UploadedBy": "Praise J.J."
     },
+    "Optimism": {
+      "Definition": "The practice of maintaining a positive outlook, which can enhance decision-making and life outcomes.",
+      "Phonetic": "/ˈɒp.tɪ.mɪ.zəm/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Naval Ravikant",
+      "UploadedBy": "Praise J.J."
+    },
     "Output": {
       "Definition": "Volume times leverage",
       "Phonetic": "",
@@ -432,7 +538,7 @@
       "UploadedBy": "Praise J.J."
     },
     "Peace": {
-      "Definition": "When all the members of a body cooperate",
+      "Definition": "Happiness at rest; a clear mind free of unnecessary thoughts.",
       "Phonetic": "/piːs/",
       "Examples": [
         ""
@@ -443,7 +549,7 @@
       "Antonyms": [
         ""
       ],
-      "Source": "Praise J.J.",
+      "Source": "Naval Ravikant",
       "UploadedBy": "Praise J.J."
     },
     "Play": {
@@ -573,6 +679,51 @@
       "Source": "Alex Hormozi",
       "UploadedBy": "Praise James"
     },
+    "Skill": {
+      "Definition": "An ability developed through practice and experience that allows for increased performance in a specific area.",
+      "Phonetic": "/skɪl/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Naval Ravikant",
+      "UploadedBy": "Praise J.J."
+    },
+    "Solution": {
+      "Definition": "A better problem obtained from improving knowledge",
+      "Phonetic": "/səˈluːʃ(ə)n/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "David Deutsch",
+      "UploadedBy": "Praise J.J."
+    },
+    "Solve": {
+      "Definition": "Creating better problems by improving knowledge",
+      "Phonetic": "/sɒlv/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "David Deutsch",
+      "UploadedBy": "Praise J.J."
+    },
     "Straight": {
       "Definition": "The shortest path between 2 points",
       "Phonetic": "/streɪt/",
@@ -667,6 +818,21 @@
       "Source": "Common sense",
       "UploadedBy": "Praise J.J."
     },
+    "Wealth": {
+      "Definition": "The capacity to solve problems through knowledge creation and innovation",
+      "Phonetic": "/wɛlθ/",
+      "Examples": [
+        "if optimism is true then there’s no limit to wealth"
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "David Deutsch",
+      "UploadedBy": "Praise J.J."
+    },
     "Wickedness": {
       "Definition": "A measure of loss imposed on one's self in order to cause suffering for another",
       "Phonetic": "/ˈwɪk.ɪd.nəs/",
@@ -683,8 +849,8 @@
       "UploadedBy": "Praise J.J."
     },
     "Wisdom": {
-      "Definition": "Knowing the long term consequences of your actions",
-      "Phonetic": "/ˈwɪz.dəm/",
+      "Definition": "Understanding the long-term consequences of your actions and making decisions based on that understanding.",
+      "Phonetic": "/ˈwɪz.dəm/​",
       "Examples": [
         ""
       ],
@@ -694,7 +860,7 @@
       "Antonyms": [
         ""
       ],
-      "Source": "Common sense",
+      "Source": "Naval Ravikant",
       "UploadedBy": "Praise J.J."
     },
     "Work": {
