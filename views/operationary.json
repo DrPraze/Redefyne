@@ -1,5 +1,20 @@
 {
   "A": {
+    "Accountability": {
+      "Definition": "Taking ownership of outcomes publicly.",
+      "Phonetic": "/əˌkaʊn.təˈbɪl.ɪ.ti/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Common sense",
+      "UploadedBy": "Praise J.J."
+    },
     "Action": {
       "Definition": "The physical execution of a decision; results are determined by actions taken.",
       "Phonetic": "/ˈæk.ʃən/",
@@ -29,12 +44,59 @@
       ],
       "Source": "Praise J.J.",
       "UploadedBy": "Praise J.J."
+    },
+    "Automation": {
+      "Definition": "Getting work done while you sleep.",
+      "Phonetic": "/ˌɔː.təˈmeɪ.ʃən/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Common sense",
+      "UploadedBy": "Praise J.J."
+    }
+  },
+  "B": {
+    "Boundaries": {
+      "Definition": "Knowing what to accept and what to reject.",
+      "Phonetic": "/ˈbaʊn.dɹiz/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Common sense",
+      "UploadedBy": "Praise J.J."
     }
   },
   "C": {
     "Careful": {
       "Definition": "Putting all your attention to a task",
       "Phonetic": "/ˈkɛə.fəl/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Clarity": {
+      "Definition": "Seeing truth without distortion.",
+      "Phonetic": "/ˈklær.ɪ.ti/",
       "Examples": [
         ""
       ],
@@ -92,6 +154,21 @@
         ""
       ],
       "Source": "Alex Hormozi",
+      "UploadedBy": "Praise J.J."
+    },
+    "Contentment": {
+      "Definition": "A state of needing nothing",
+      "Phonetic": "/kənˈtɛnt.mənt/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Common sense",
       "UploadedBy": "Praise J.J."
     },
     "Contraformist": {
@@ -235,6 +312,21 @@
       "Source": "Praise J.J.",
       "UploadedBy": "Praise J.J."
     },
+    "Freedom": {
+      "Definition": "Living without attachment or need for validation.",
+      "Phonetic": "/ˈfriː.dəm/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Naval Ravikant",
+      "UploadedBy": "Praise J.J."
+    },
     "Frustration": {
       "Definition": "A feeling that comes from percieved lack of control",
       "Phonetic": "/frʌˈstreɪʃən/",
@@ -265,6 +357,21 @@
         ""
       ],
       "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Gratitude": {
+      "Definition": "A practice to focus on what's already good",
+      "Phonetic": "/ˈɡræ.tɪ.tjuːd/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Common sense",
       "UploadedBy": "Praise J.J."
     }
   },
@@ -376,6 +483,23 @@
         ""
       ],
       "Source": "Naval Ravikant",
+      "UploadedBy": "Praise J.J."
+    }
+  },
+  "K": {
+    "Knowledge": {
+      "Definition": "A form of information which is necessary for a physical transformation.",
+      "Phonetic": "/ˈnɒlɪdʒ/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "David Deutsch",
       "UploadedBy": "Praise J.J."
     }
   },
@@ -678,6 +802,36 @@
       ],
       "Source": "Alex Hormozi",
       "UploadedBy": "Praise James"
+    },
+    "Scale": {
+      "Definition": "Expanding output while minimizing effort.",
+      "Phonetic": "/skeɪl/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Common sense",
+      "UploadedBy": "Praise J.J."
+    },
+    "Simplicity": {
+      "Definition": "The elegance of less",
+      "Phonetic": "/sɪmˈplɪs.ɪ.ti/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Common sense",
+      "UploadedBy": "Praise J.J."
     },
     "Skill": {
       "Definition": "An ability developed through practice and experience that allows for increased performance in a specific area.",
