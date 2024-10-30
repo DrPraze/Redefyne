@@ -15,6 +15,21 @@
       "Source": "Common sense",
       "UploadedBy": "Praise J.J."
     },
+    "Achieve": {
+      "Definition": "To successfully obtain what was targeted.",
+      "Phonetic": "/əˈtʃiːv/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "ChatGPT",
+      "UploadedBy": "Praise J.J."
+    },
     "Action": {
       "Definition": "The physical execution of a decision; results are determined by actions taken.",
       "Phonetic": "/ˈæk.ʃən/",
@@ -28,6 +43,21 @@
         ""
       ],
       "Source": "Naval Ravikant",
+      "UploadedBy": "Praise J.J."
+    },
+    "Agnorance": {
+      "Definition": "A combination of overconfidence and lack of knowledge",
+      "Phonetic": "/ˈæɡnərəns/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
       "UploadedBy": "Praise J.J."
     },
     "Anti-goal": {
@@ -62,6 +92,36 @@
     }
   },
   "B": {
+    "Bad": {
+      "Definition": "A measure of how many unfavourable future outcomes that are percieved from something",
+      "Phonetic": "/bæd/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Blame": {
+      "Definition": "Recognizing unutilized power in someone or something.",
+      "Phonetic": "/bleɪm/",
+      "Examples": [
+        "You're giving the power to whoever you blame better to blame yourself"
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Boundaries": {
       "Definition": "Knowing what to accept and what to reject.",
       "Phonetic": "/ˈbaʊn.dɹiz/",
@@ -76,12 +136,72 @@
       ],
       "Source": "Common sense",
       "UploadedBy": "Praise J.J."
+    },
+    "Brand": {
+      "Definition": "Deliberate pairing of things through an outcome.",
+      "Phonetic": "/brænd/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Alex Hormozi",
+      "UploadedBy": "Praise J.J."
+    },
+    "Break": {
+      "Definition": "To separate irreversibly.",
+      "Phonetic": "/breɪk/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
     }
   },
   "C": {
     "Careful": {
       "Definition": "Putting all your attention to a task",
       "Phonetic": "/ˈkɛə.fəl/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Cautious": {
+      "Definition": "Avoidance of risky engagements.",
+      "Phonetic": "/ˈkɔːʃəs/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Charge": {
+      "Definition": "Power at rest; potential power.",
+      "Phonetic": "/tʃɑːdʒ/",
       "Examples": [
         ""
       ],
@@ -201,6 +321,36 @@
       "Source": "Praise J.J.",
       "UploadedBy": "Praise J.J."
     },
+    "Control": {
+      "Definition": "The power to strategically toggle restraint and freedom.",
+      "Phonetic": "/kənˈtrəʊl/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Cool": {
+      "Definition": "Reacting to the unusual as though it is normal.",
+      "Phonetic": "/kuːl/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Curiosity": {
       "Definition": "A measure of the motivation to see something",
       "Phonetic": "/ˌkjʊə.riˈɒs.ɪ.ti/",
@@ -218,6 +368,36 @@
     }
   },
   "D": {
+    "Depression": {
+      "Definition": "Perception of no options.",
+      "Phonetic": "/dɪˈprɛʃən/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Deserve": {
+      "Definition": "Having the capacity and effort required to obtain an outcome",
+      "Phonetic": "/dɪˈzɜːv/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Difficult": {
       "Definition": "Knowledge gap",
       "Phonetic": "/ˈdɪf.ɪ.kəlt/",
@@ -247,12 +427,72 @@
       ],
       "Source": "Praise J.J.",
       "UploadedBy": "Praise J.J."
+    },
+    "Discipline": {
+      "Definition": "Discipline is saying no to people, places, and things that distract you from the pain of not achieving your goals.",
+      "Phonetic": "/ˈdɪs.ə.plɪn/",
+      "Examples": [
+        "Discipline happens when the pain of not achieving your goals outweighs the pleasure from distractions"
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Dan Koe",
+      "UploadedBy": "Praise J.J."
     }
   },
   "E": {
+    "Effort": {
+      "Definition": "The conscious exertion of energy towards a goal.",
+      "Phonetic": "/ˈɛfət/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "ChatGPT",
+      "UploadedBy": "Praise J.J."
+    },
     "Energy": {
       "Definition": "A measure of the ability to do work",
       "Phonetic": "/ˈɛn.ɚ.dʒi/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Exist": {
+      "Definition": "Appears in reality",
+      "Phonetic": "/ɪɡˈzɪst/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Expectation": {
+      "Definition": "A belief in the continuity of outcomes.",
+      "Phonetic": "/ˌɛkspɛkˈteɪʃən/",
       "Examples": [
         ""
       ],
@@ -280,6 +520,66 @@
         ""
       ],
       "Source": "Naval Ravikant",
+      "UploadedBy": "Praise J.J."
+    },
+    "Fake": {
+      "Definition": "A duplicate that's less valuable than the original.",
+      "Phonetic": "/feɪk/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Favour": {
+      "Definition": "Making reality happen according to one's wish",
+      "Phonetic": "/ˈfeɪvə/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Fear": {
+      "Definition": "An emotional response to perceived existential or situational threats.",
+      "Phonetic": "/fɪə/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Common sense",
+      "UploadedBy": "Praise J.J."
+    },
+    "Flow state": {
+      "Definition": "Complete absorption in an activity",
+      "Phonetic": "/ˈfloʊ steɪt/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Common sense",
       "UploadedBy": "Praise J.J."
     },
     "Focus": {
@@ -327,11 +627,56 @@
       "Source": "Naval Ravikant",
       "UploadedBy": "Praise J.J."
     },
+    "Fresh": {
+      "Definition": "Existing for the first time",
+      "Phonetic": "/frɛʃ/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Friend": {
+      "Definition": "Someone with mutual goodwill",
+      "Phonetic": "/frɛnd/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Frustration": {
       "Definition": "A feeling that comes from percieved lack of control",
       "Phonetic": "/frʌˈstreɪʃən/",
       "Examples": [
         "You can solve frustration by being reminded that you can control yourself"
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Fun": {
+      "Definition": "The level to which the pleasure from an activity exceeds the pain of putting the effort.",
+      "Phonetic": "/fʌn/",
+      "Examples": [
+        ""
       ],
       "Synonyms": [
         ""
@@ -347,6 +692,21 @@
     "Goal": {
       "Definition": "What a better life looks like",
       "Phonetic": "/ɡoʊl/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Good": {
+      "Definition": "A measure of how many favourable future outcomes are percieved from something",
+      "Phonetic": "/ɡʊd/",
       "Examples": [
         ""
       ],
@@ -405,6 +765,21 @@
       ],
       "Source": "Praise J.J.",
       "UploadedBy": "Praise J.J."
+    },
+    "Homology": {
+      "Definition": "Similarity in structure or function due to shared origins.",
+      "Phonetic": "/hɒˈmɒlədʒi/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "",
+      "UploadedBy": "Praise J.J."
     }
   },
   "I": {
@@ -424,7 +799,7 @@
       "UploadedBy": "Praise J.J."
     },
     "Illusion": {
-      "Definition": "That which only exists when you're thinking about it",
+      "Definition": "That which only exists when you think about it.",
       "Phonetic": "/ɪˈluːʒən/",
       "Examples": [
         ""
@@ -504,6 +879,21 @@
     }
   },
   "L": {
+    "Leak": {
+      "Definition": "pouring outside where the owner would love to keep it",
+      "Phonetic": "/liːk/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Learning": {
       "Definition": "Same condition, new behaviour",
       "Phonetic": "/ˈlɜrn.ɪŋ/",
@@ -532,6 +922,51 @@
         ""
       ],
       "Source": "Naval Ravikant",
+      "UploadedBy": "Praise J.J."
+    },
+    "Listen": {
+      "Definition": "Elimination of alternative sounds.",
+      "Phonetic": "/ˈlɪsən/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Look": {
+      "Definition": "positioning lens to see a desired truth",
+      "Phonetic": "/lʊk/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Lost": {
+      "Definition": "Perceived lack of direction.",
+      "Phonetic": "/lɒst/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
       "UploadedBy": "Praise J.J."
     },
     "Love": {
@@ -597,7 +1032,39 @@
       "UploadedBy": "Praise J.J."
     }
   },
+  "N": {
+    "Nothing": {
+      "Definition": "Doesn't exist",
+      "Phonetic": "/ˈnʌθɪŋ/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    }
+  },
   "O": {
+    "Obvious": {
+      "Definition": "Easily perceived without effort.",
+      "Phonetic": "/ˈɒbvɪəs/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Operationary": {
       "Definition": "An open-source directory of definitions based on \"what to do\"",
       "Phonetic": "/ˌɒpəˈreɪʃənɛri/",
@@ -628,6 +1095,21 @@
       "Source": "Naval Ravikant",
       "UploadedBy": "Praise J.J."
     },
+    "Originality": {
+      "Definition": "The degree to which the constituents of something are mixed in a way that hasn't been done before",
+      "Phonetic": "/əˌrɪdʒɪˈnælɪti/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Output": {
       "Definition": "Volume times leverage",
       "Phonetic": "",
@@ -645,6 +1127,21 @@
     }
   },
   "P": {
+    "Pain": {
+      "Definition": "Perception of stress/strain",
+      "Phonetic": "/peɪn/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Patience": {
       "Definition": "Figuring out what to do in the meantime",
       "Phonetic": "/ˈpeɪ.ʃəns/",
@@ -722,6 +1219,21 @@
       "Source": "Praise J.J.",
       "UploadedBy": "Praise J.J."
     },
+    "Pride": {
+      "Definition": "An inflated or deflated view of self-worth",
+      "Phonetic": "/praɪd/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Common sense",
+      "UploadedBy": "/praɪd/"
+    },
     "Productivity": {
       "Definition": "Getting more done per unit of time",
       "Phonetic": "/ˌprɒdʌkˈtɪv.ɪ.ti/",
@@ -739,6 +1251,36 @@
     }
   },
   "R": {
+    "Reach": {
+      "Definition": "Physically obtainable",
+      "Phonetic": "/riːtʃ/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Real": {
+      "Definition": "That which exists independently of perception.",
+      "Phonetic": "/riːl/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Reality": {
       "Definition": "Reality is that which does not go away when you stop thinking about it.",
       "Phonetic": "/riˈæl.ɪ.ti/",
@@ -770,7 +1312,7 @@
       "UploadedBy": "Praise J.J."
     },
     "Rest": {
-      "Definition": "Getting back energy",
+      "Definition": "passivity that restores energy.",
       "Phonetic": "/rɛst/",
       "Examples": [
         ""
@@ -818,6 +1360,21 @@
       "Source": "Common sense",
       "UploadedBy": "Praise J.J."
     },
+    "See": {
+      "Definition": "Elimination of alternative objects.",
+      "Phonetic": "/siː/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Simplicity": {
       "Definition": "The elegance of less",
       "Phonetic": "/sɪmˈplɪs.ɪ.ti/",
@@ -834,7 +1391,7 @@
       "UploadedBy": "Praise J.J."
     },
     "Skill": {
-      "Definition": "An ability developed through practice and experience that allows for increased performance in a specific area.",
+      "Definition": "Conscious competence",
       "Phonetic": "/skɪl/",
       "Examples": [
         ""
@@ -845,7 +1402,22 @@
       "Antonyms": [
         ""
       ],
-      "Source": "Naval Ravikant",
+      "Source": "Praise J.J>",
+      "UploadedBy": "Praise J.J."
+    },
+    "Sober": {
+      "Definition": "The level of accuracy of knowledge about oneself",
+      "Phonetic": "/ˈsəʊbə/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
       "UploadedBy": "Praise J.J."
     },
     "Solution": {
@@ -878,6 +1450,51 @@
       "Source": "David Deutsch",
       "UploadedBy": "Praise J.J."
     },
+    "Specific": {
+      "Definition": "Difficult to replicate.",
+      "Phonetic": "/spəˈsɪfɪk/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Specificity": {
+      "Definition": "The degree to which something cannot be replicated.",
+      "Phonetic": "/ˌspɛsɪˈfɪsɪti/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Stagnant": {
+      "Definition": "Lack of relative progress.",
+      "Phonetic": "/ˈstæɡnənt/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Straight": {
       "Definition": "The shortest path between 2 points",
       "Phonetic": "/streɪt/",
@@ -908,9 +1525,99 @@
       ],
       "Source": "Common sense",
       "UploadedBy": "Praise J.J."
+    },
+    "Stupidity": {
+      "Definition": "The rate at which you repeat the same mistakes under the same conditions.",
+      "Phonetic": "/stjuːˈpɪdɪti/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Surprise": {
+      "Definition": "When reality mismatches consistency",
+      "Phonetic": "/səˈpraɪz/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Surrender": {
+      "Definition": "Letting go of resistance",
+      "Phonetic": "/səˈrɛn.də/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Common sense",
+      "UploadedBy": "Praise J.J."
     }
   },
   "T": {
+    "Target": {
+      "Definition": "Elimination of alternative directions",
+      "Phonetic": "/ˈtɑːɡɪt/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Thought": {
+      "Definition": "A mental activity to make actions precise.",
+      "Phonetic": "/θɔːt/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
+    "Traffic": {
+      "Definition": "The amount of movement passing a place per unit time.",
+      "Phonetic": "/ˈtræfɪk/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Trust": {
       "Definition": "Trust is confidence that something you've seen won't change (be unseen)",
       "Phonetic": "",
@@ -957,6 +1664,21 @@
     }
   },
   "W": {
+    "Waste": {
+      "Definition": "Resources spent without yielding desirable results.",
+      "Phonetic": "/weɪst/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
+      "UploadedBy": "Praise J.J."
+    },
     "Weak": {
       "Definition": "A measure of the inability to withstand pressure",
       "Phonetic": "/wiːk/",
@@ -985,6 +1707,21 @@
         ""
       ],
       "Source": "David Deutsch",
+      "UploadedBy": "Praise J.J."
+    },
+    "Why": {
+      "Definition": "A question aimed at uncovering reason or purpose",
+      "Phonetic": "/waɪ/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
       "UploadedBy": "Praise J.J."
     },
     "Wickedness": {
@@ -1030,6 +1767,21 @@
         ""
       ],
       "Source": "Alex Hormozi",
+      "UploadedBy": "Praise J.J."
+    },
+    "Wrong": {
+      "Definition": "Not corresponding with the truth",
+      "Phonetic": "/rɔːŋ/",
+      "Examples": [
+        ""
+      ],
+      "Synonyms": [
+        ""
+      ],
+      "Antonyms": [
+        ""
+      ],
+      "Source": "Praise J.J.",
       "UploadedBy": "Praise J.J."
     }
   }
