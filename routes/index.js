@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const fs = require('fs');
+const path = require('path');
 
 router.get('/', function (req, res, next) {
     fs.readFile('views/operationary.json', 'utf8', (err, data)=>{
@@ -21,7 +22,7 @@ router.get('/', function (req, res, next) {
                 });
                 keyInfo.push({key, nestedKeys});
             }
-        })
+        });
         res.render('index.ejs', {
             keyInfo: keyInfo,
             words: JSON.stringify(words)
@@ -29,31 +30,80 @@ router.get('/', function (req, res, next) {
     });
 });
 
-router.get('/search/:word', function(req, res, next){
-    try{
-        fs.readFile('views/operationary.json', 'utf8', (err, data)=>{
-            if (err){
-                console.err(err);
+
+// Helper function to dynamically link recognized words  
+function linkText(text, recognizedWords) {  
+    const pattern = new RegExp(`\\b(${recognizedWords.join('|')})\\b`, 'gi');  
+    // Replace matched words with a hyperlink format and capitalize the first letter  
+    return text.replace(pattern, (match) => {  
+        // Capitalize the first letter and create the hyperlink  
+        const capitalizedMatch = match.charAt(0).toUpperCase() + match.slice(1);  
+        return `<a href="/search/${capitalizedMatch}">${capitalizedMatch}</a>`;  
+    });  
+}
+
+// Route to handle search
+router.get('/search/:word', function (req, res, next) {
+    try {
+        const filePath = "views\\operationary.json";
+
+        fs.readFile(filePath, 'utf8', (err, data) => {
+            if (err) {
+                console.error(err);
                 return res.status(500).send('Error reading JSON file');
             }
+
             const word = req.params.word;
             const jsonData = JSON.parse(data);
-            const firstLetter = word.charAt(0);
+            const firstLetter = word.charAt(0).toUpperCase();
+
+            // Check if the word exists in the JSON
+            if (!jsonData[firstLetter] || !jsonData[firstLetter][word]) {
+                return res.status(404).send('Word not found');
+            }
+
             const wordData = jsonData[firstLetter][word];
-            const examples = wordData.Examples;
-    
-            res.render('search.ejs',{
+
+            // Extract all recognized words from the Operationary
+            const recognizedWords = [];
+            Object.values(jsonData).forEach((category) => {
+                recognizedWords.push(...Object.keys(category));
+            });
+
+            // Link words in Definition and Examples
+            const linkedDefinition = linkText(wordData.Definition, recognizedWords);
+            const linkedExamples = wordData.Examples.map((example) => linkText(example, recognizedWords));
+
+            // Render the response
+            res.render('search.ejs', {
                 word: word,
-                definition: wordData.Definition,
+                definition: linkedDefinition,
                 phonetic: wordData.Phonetic,
-                examples: examples,
+                examples: linkedExamples,
                 source: wordData.Source,
-                uploadedBy: wordData.UploadedBy
+                uploadedBy: wordData.UploadedBy,
             });
         });
     } catch (err) {
-        console.log(err);
+        console.error(err);
+        res.status(500).send('Internal server error');
     }
 });
+
+module.exports = router;
+
+
+
+/*
+// Build Redefyne API here
+router.post('/api', function(req, res, next){
+    fs.readFile('views/operationary.json', 'utf8', (err, data)=>{
+        if (err){
+            console.log(err);
+            return res.status(500).send('Error reading JSON file');
+        }
+    });
+});
+*/
 
 module.exports = router;
