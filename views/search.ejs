@@ -127,8 +127,8 @@
                                             <p class="mb-0">Source: <%= source %></p>
                                             <p class="mb-0">Uploaded By: <%= uploadedBy %></p>
 
-                                            <a href="https://t.me/redefyne" class="btn custom-btn mt-3 mt-lg-4"><i class="bi-share"></i> Share</a>
-                                            <a href="https://t.me/redefyne" class="btn custom-btn mt-3 mt-lg-4"><i class="bi-cup"></i> Get merch</a>
+                                            <a id="shareBtn" class="btn custom-btn mt-3 mt-lg-4"><i class="bi-share"></i> Share Definition</a>
+                                            <a id="copyLinkBtn" class="btn custom-btn mt-3 mt-lg-4">📋 Copy Link</a>
                                         </div>
                                     </div>
                                 </div>
@@ -179,6 +179,43 @@
                 </div>
             </section>
         </main>
+        
+        <script>
+            const word = "<%= word %>";
+            const definition = "<%= definition.replace(/(<([^>]+)>)/gi, '') %>"; // Remove HTML tags for plain text
+            const shareUrl = `${window.location.origin}/search/${word}`;
+            const shareText = `"${word}": ${definition} \nCheck it out here: ${shareUrl}`;
+        
+            // Share feature using Web Share API
+            document.getElementById('shareBtn').addEventListener('click', async () => {
+                if (navigator.share) {
+                    try {
+                        await navigator.share({
+                            title: `Definition of ${word}`,
+                            text: shareText,
+                            url: shareUrl,
+                        });
+                        alert('Shared successfully!');
+                    } catch (error) {
+                        console.error('Error sharing:', error);
+                    }
+                } else {
+                    alert('Sharing is not supported in your browser. Please copy the link instead.');
+                }
+            });
+        
+            // Copy link to clipboard as fallback
+            document.getElementById('copyLinkBtn').addEventListener('click', () => {
+                navigator.clipboard.writeText(shareUrl)
+                    .then(() => {
+                        alert('Link copied to clipboard!');
+                    })
+                    .catch((error) => {
+                        console.error('Error copying link:', error);
+                    });
+            });
+        </script>
+        
 
 		<footer class="site-footer section-padding">
             <div class="container">
