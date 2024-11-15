@@ -31,15 +31,14 @@ router.get('/', function (req, res, next) {
 });
 
 
-// Helper function to dynamically link recognized words  
-function linkText(text, recognizedWords) {  
-    const pattern = new RegExp(`\\b(${recognizedWords.join('|')})\\b`, 'gi');  
-    // Replace matched words with a hyperlink format and capitalize the first letter  
-    return text.replace(pattern, (match) => {  
-        // Capitalize the first letter and create the hyperlink  
-        const capitalizedMatch = match.charAt(0).toUpperCase() + match.slice(1);  
-        return `<a href="/search/${capitalizedMatch}">${capitalizedMatch}</a>`;  
-    });  
+// Helper function to dynamically link recognized words
+function linkText(text, recognizedWords) {
+    const pattern = new RegExp(`\\b(${recognizedWords.join('|')})\\b`, 'gi');
+    // Replace matched words with a hyperlink format and capitalize the first letter
+    return text.replace(pattern, (match) => {
+        const capitalizedMatch = match.charAt(0).toUpperCase() + match.slice(1);
+        return `<a href="/search/${capitalizedMatch}">${capitalizedMatch}</a>`;
+    });
 }
 
 // Route to handle search
@@ -53,7 +52,7 @@ router.get('/search/:word', function (req, res, next) {
                 return res.status(500).send('Error reading JSON file');
             }
 
-            const word = req.params.word;
+            const word = req.params.word.trim();
             const jsonData = JSON.parse(data);
             const firstLetter = word.charAt(0).toUpperCase();
 
@@ -70,11 +69,19 @@ router.get('/search/:word', function (req, res, next) {
                 recognizedWords.push(...Object.keys(category));
             });
 
+            // Sort all recognized words alphabetically
+            recognizedWords.sort();
+
             // Link words in Definition and Examples
             const linkedDefinition = linkText(wordData.Definition, recognizedWords);
             const linkedExamples = wordData.Examples.map((example) => linkText(example, recognizedWords));
 
-            // Render the response
+            // Determine Previous and Next words
+            const currentIndex = recognizedWords.indexOf(word);
+            const previousWord = recognizedWords[(currentIndex - 1 + recognizedWords.length) % recognizedWords.length];
+            const nextWord = recognizedWords[(currentIndex + 1) % recognizedWords.length];
+
+            // Render the response with navigation links
             res.render('search.ejs', {
                 word: word,
                 definition: linkedDefinition,
@@ -82,6 +89,8 @@ router.get('/search/:word', function (req, res, next) {
                 examples: linkedExamples,
                 source: wordData.Source,
                 uploadedBy: wordData.UploadedBy,
+                previousWord: previousWord,
+                nextWord: nextWord
             });
         });
     } catch (err) {
