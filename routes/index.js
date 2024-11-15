@@ -44,7 +44,7 @@ function linkText(text, recognizedWords) {
 // Route to handle search
 router.get('/search/:word', function (req, res, next) {
     try {
-        const filePath = "views\\operationary.json";
+        const filePath = "views/operationary.json";
 
         fs.readFile(filePath, 'utf8', (err, data) => {
             if (err) {
