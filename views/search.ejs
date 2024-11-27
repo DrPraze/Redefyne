@@ -10,21 +10,21 @@
         <title><%= word %> | Operationary definition</title>
         <link rel="shortcut icon" href="/images/redefyne_logo.png" type="image/x-icon">
 
-        <!-- CSS FILES -->        
+        <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        
+
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
-                        
+
         <link href="/css/bootstrap.min.css" rel="stylesheet">
 
         <link href="/css/bootstrap-icons.css" rel="stylesheet">
-        
+
         <link href="/css/style.css" rel="stylesheet">
-           
+
     </head>
-    
+
     <body id="top">
 
         <main>
@@ -39,11 +39,11 @@
                     <div class="d-lg-none ms-auto me-4">
                         <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
                     </div>
-    
+
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-    
+
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-5 me-lg-auto">
                             <li class="nav-item">
@@ -53,7 +53,7 @@
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="/#featured-section">Word of the Day</a>
                             </li>
-    
+
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="/#section_2">Browse words</a>
                             </li>
@@ -61,7 +61,7 @@
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="/#section_4">Buy Merch</a>
                             </li>
-    
+
                             <!-- <li class="nav-item">
                                 <a class="nav-link click-scroll" href="/#section_5">Submit Word</a>
                             </li> -->
@@ -121,7 +121,7 @@
                                             <h5 class="mb-2"><%- definition %></h5>
                                             <ul>Examples:
                                             <% examples.forEach(example =>{%>
-                                                <li style="list-style: bullet;"><%= example %></li>
+                                                <li style="list-style: bullet;"><%- example %></li>
                                             <% }); %>
                                             </ul>
                                             <p class="mb-0">Source: <%= source %></p>
@@ -149,11 +149,11 @@
                                     <li class="page-item active" aria-current="page">
                                         <a class="page-link" href="#">1</a>
                                     </li>
-                                    
+
                                     <li class="page-item">
                                         <a class="page-link" href="#">2</a>
                                     </li>
-                                    
+
                                     <li class="page-item">
                                         <a class="page-link" href="#">3</a>
                                     </li>
@@ -165,7 +165,7 @@
                                     <li class="page-item">
                                         <a class="page-link" href="#">5</a>
                                     </li>
-                                    
+
                                     <li class="page-item">
                                         <a class="page-link" href="#" aria-label="Next">
                                             <span aria-hidden="true" onclick="window.location.href='/search/<%= nextWord %>'"> Next</span>
@@ -179,13 +179,13 @@
                 </div>
             </section>
         </main>
-        
+
         <script>
             const word = "<%= word %>";
             const definition = "<%= definition.replace(/(<([^>]+)>)/gi, '') %>"; // Remove HTML tags for plain text
             const shareUrl = `${window.location.origin}/search/${word}`;
             const shareText = `"${word}": ${definition} \nCheck it out here: ${shareUrl}`;
-        
+
             // Share feature using Web Share API
             document.getElementById('shareBtn').addEventListener('click', async () => {
                 if (navigator.share) {
@@ -203,7 +203,7 @@
                     alert('Sharing is not supported in your browser. Please copy the link instead.');
                 }
             });
-        
+
             // Copy link to clipboard as fallback
             document.getElementById('copyLinkBtn').addEventListener('click', () => {
                 navigator.clipboard.writeText(shareUrl)
@@ -215,7 +215,89 @@
                     });
             });
         </script>
-        
+
+        <!-- Image Download Button -->
+<button id="downloadBtn">🖼️ Download Image</button>
+
+<!-- Hidden Canvas Element -->
+<canvas id="definitionCanvas" style="display: none;"></canvas>
+
+<script>
+    const word = "<%= word %>";
+    const definition = "<%= definition.replace(/(<([^>]+)>)/gi, '') %>"; // Strip HTML tags
+    const logoUrl = '/images/redefyne_logo.png'; // Update with your logo's path
+
+    document.getElementById('downloadBtn').addEventListener('click', () => {
+        const canvas = document.getElementById('definitionCanvas');
+        const ctx = canvas.getContext('2d');
+        const canvasWidth = 800;
+        const canvasHeight = 600;
+
+        // Set canvas dimensions
+        canvas.width = canvasWidth;
+        canvas.height = canvasHeight;
+
+        // Set background color
+        ctx.fillStyle = '#ffffff';
+        ctx.fillRect(0, 0, canvasWidth, canvasHeight);
+
+        // Set text styles
+        ctx.fillStyle = '#000000';
+        ctx.font = '24px Arial';
+        ctx.textAlign = 'center';
+
+        // Draw the word
+        ctx.fillText(word, canvasWidth / 2, 100);
+
+        // Draw the definition (wrap text if too long)
+        const definitionLines = wrapText(ctx, definition, canvasWidth - 100);
+        let yOffset = 150;
+        definitionLines.forEach(line => {
+            ctx.fillText(line, canvasWidth / 2, yOffset);
+            yOffset += 30;
+        });
+
+        // Add the logo as a watermark
+        const logoImage = new Image();
+        logoImage.src = logoUrl;
+        logoImage.onload = () => {
+            const logoSize = 100;
+            ctx.globalAlpha = 0.3; // Set transparency for watermark
+            ctx.drawImage(logoImage, canvasWidth - logoSize - 20, canvasHeight - logoSize - 20, logoSize, logoSize);
+            ctx.globalAlpha = 1.0;
+
+            // Trigger image download
+            const image = canvas.toDataURL('image/png');
+            const link = document.createElement('a');
+            link.href = image;
+            link.download = `${word}_definition.png`;
+            link.click();
+        };
+    });
+
+    // Helper function to wrap text
+    function wrapText(ctx, text, maxWidth) {
+        const words = text.split(' ');
+        const lines = [];
+        let line = '';
+
+        words.forEach(word => {
+            const testLine = `${line}${word} `;
+            const metrics = ctx.measureText(testLine);
+            const testWidth = metrics.width;
+
+            if (testWidth > maxWidth && line !== '') {
+                lines.push(line.trim());
+                line = `${word} `;
+            } else {
+                line = testLine;
+            }
+        });
+        lines.push(line.trim());
+        return lines;
+    }
+</script>
+
 
 		<footer class="site-footer section-padding">
             <div class="container">
@@ -230,7 +312,7 @@
 
 
                         <p class="copyright-text mt-lg-5 mt-4">Copyright © 2024 Redefyne HQ. All rights reserved.
-                        <br><br>Made with love: <a rel="nofollow" href="https://drpraze.github.io" target="_blank">Praise J.J.</a></p> 
+                        <br><br>Made with love: <a rel="nofollow" href="https://drpraze.github.io" target="_blank">Praise J.J.</a></p>
                     </div>
 
                 </div>
